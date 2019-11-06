@@ -43,7 +43,7 @@ var number;
 function newGame() {
     println("正在生成随机数字...");
     setTimeout(function () {
-        number = 100;
+        number = random(0,100);
         println("随机数字已生成，请开始作答！");
     }, 800);
 }
